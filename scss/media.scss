@@ -1,0 +1,111 @@
+@media (max-width: 768px){
+
+    *{
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: 0 !important;
+      }
+      body {
+        background-size: cover;
+      }
+
+    .top {
+        padding: 10px !important;
+        gap: 100px !important;
+        justify-content: center !important;
+     }
+    
+    .second {
+        padding: 50px !important;
+        padding-top: 100px !important;
+        font-size: 10px !important;
+        height: 400px !important;
+         
+      }
+        form {
+            flex-direction: column !important;
+           
+
+            input[type=text] {
+                width: 300px !important;
+                height: 50px !important;
+      }
+            input[type=submit] {
+                width: 300px !important;
+                height: 50px !important;
+      }
+       
+      }
+    .icons {
+        flex-direction: column;
+        height: auto !important;
+    
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .container .box {
+        height: 250px;
+    }
+    .text {
+        padding: 80px !important;
+    }
+    .people {
+        height: auto;
+        margin-bottom: 10px !important;
+    
+    .center {
+        padding: 20px !important;
+        font-size: 30px;
+    }
+        
+    .photo-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 90px !important;
+        padding-top: 0px !important;
+    }
+}
+    .five-section {
+        padding: 50px !important;
+        font-size: 15px !important;
+        height: 200px !important;
+        
+  }
+  .five-section h1 {
+    padding: 20px !important;
+  }
+    form {
+        flex-direction: column !important;
+       
+        input[type=text] {
+            width: 300px !important;
+            height: 50px !important;
+  }
+        input[type=submit] {
+            width: 300px !important;
+            height: 50px !important;
+  }
+  }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  
+.rigth {
+    padding: 15px !important;
+    gap: 0px !important;
+  }
+  li {
+    gap: 10px;
+  }
+  nav {
+    gap: 10px;
+    padding: 10px !important;
+    font-size: 12px;
+  }
+.left {
+    gap: 30px;
+}
+}
+      }
